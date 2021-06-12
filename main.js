@@ -34,9 +34,9 @@ function draw() {
 
         if(status != "")
         {
-            r = ramdom(255);
-            g = ramdom(255);
-            b = ramdom(255);
+            r = random(255);
+            g = random(255);
+            b = random(255);
             objectDetector.detect(video, gotResult);
             for (i = 0; i < objects.length; i++)
             {
